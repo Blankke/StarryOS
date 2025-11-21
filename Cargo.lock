@@ -575,6 +575,22 @@ dependencies = [
 ]
 
 [[package]]
+name = "axplat-loongarch64-2k1000la"
+version = "0.2.0"
+dependencies = [
+ "axconfig-macros",
+ "axcpu",
+ "axplat",
+ "chrono",
+ "kspin",
+ "lazyinit",
+ "log",
+ "loongArch64",
+ "page_table_entry",
+ "uart_16550",
+]
+
+[[package]]
 name = "axplat-loongarch64-qemu-virt"
 version = "0.2.0"
 source = "git+https://github.com/Starry-OS/axplat_crates.git?rev=243fdc9#243fdc9265ba472cffffddc1cae9a47371caf8e3"
@@ -2106,6 +2122,7 @@ dependencies = [
  "axfs-ng",
  "axhal",
  "axlog",
+ "axplat-loongarch64-2k1000la",
  "axplat-riscv64-visionfive2",
  "axruntime",
  "axsync",
