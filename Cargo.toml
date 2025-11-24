@@ -146,7 +146,8 @@ features = ["fp-simd", "irq", "rtc"]
 optional = true
 
 [dependencies.axplat-loongarch64-2k1000la]
-path = "../axplat-loongarch64-2k1000la"
+git = "https://github.com/Starry-OS/axplat-loongarch64-2k1000la.git"
+rev = "b9b10d7"
 features = ["fp-simd", "irq", "rtc"]
 optional = true
 
